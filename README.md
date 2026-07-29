@@ -6,14 +6,14 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android%208.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%20Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![Version](https://img.shields.io/badge/Latest%20Release-v1.0.0-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
+[![Version](https://img.shields.io/badge/Latest%20Release-v2.0.0-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-FF2D55?style=for-the-badge)](LICENSE)
 
 <br/>
 
 > 🚀 **Pass Google Play Console's mandatory 20-tester / 14-day closed testing requirement effortlessly through developer reciprocity.**
 
-[📥 **Download Latest APK (v1.0.0)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues) • [📖 Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases)
+[📥 **Download Production APK (v2.0.0)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest) • [📖 Full Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/tag/v2.0.0) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues)
 
 ---
 
@@ -24,7 +24,7 @@
 Google Play Console requires all personal developer accounts created after November 2023 to run a **Closed Test track with at least 12–20 opt-in testers for 14 consecutive days** before applying for Production Access.
 
 **Tester Exchange** is a community-driven, reciprocal platform where Android developers help each other pass closed testing. 
-- **Test Other Apps ➔ Earn Seat Credits**
+- **Test Other Developers' Apps ➔ Earn Seat Credits (+1 per Day Tested)**
 - **Spend Seat Credits ➔ Recruit 12+ Verified Community Testers for Your App**
 
 ---
@@ -33,10 +33,10 @@ Google Play Console requires all personal developer accounts created after Novem
 
 ```mermaid
 flowchart LR
-    A[📱 Join Community Apps] --> B[📸 Upload Daily Proofs]
-    B --> C[💎 Earn Seat Credits]
-    C --> D[🚀 List Your App]
-    D --> E[👥 Recruit 12+ Testers]
+    A[📱 Join Community Apps] --> B[📅 Track 14-Day Calendar]
+    B --> C[📸 Upload Daily Proofs]
+    C --> D[💎 Earn Seat Credits]
+    D --> E[🚀 List Your App & Recruit]
     E --> F[🎉 Pass Play Store Review]
 ```
 
@@ -46,34 +46,36 @@ flowchart LR
 - Tap any app to view its **Google Play Testing Workflow**.
 
 ### 2️⃣ Step 2: Complete 3-Step Opt-in & Daily Proofs
-- **Step 1: Join Google Group** — Tap the direct card to join the app's Google Group for Play Store access.
-- **Step 2: Opt-in on Google Play** — Tap to accept the closed testing invitation on Google Play.
+- **Step 1: Join Google Group** — Tap the direct link card to join the app's Google Group for Play Store access.
+- **Step 3: Opt-in on Google Play** — Tap to accept the closed testing invitation on Google Play.
 - **Step 3: Upload Screenshot Proof** — Attach an installation screenshot. Your application goes to **Pending Approval** by the developer.
 
-### 3️⃣ Step 3: Earn Seat Credits & Streaks
-- Test apps daily for 14 consecutive days.
-- **1 Day Tested = 1 Seat Credit Earned**.
-- Track your active testing streak, earned credits, and achievement badges on your profile dashboard.
+### 3️⃣ Step 3: Track 14-Day Calendar & Earn Seat Credits
+- View your **14-Day Installed Date Trackline** featuring real-time calendar dates (e.g. `Jul 15` ➔ `Jul 29`).
+- Tap any day chip on the calendar trackline to view or upload screenshot proof.
+- **1 Day Tested = +1 Seat Credit Earned**.
 
 ### 4️⃣ Step 4: List Your App & Recruit Testers
-- Use your earned **Seat Credits** to register your own Android app.
+- Spend your earned **Seat Credits** to register your own Android app.
 - Set your required **Tester Target** (e.g. 12 or 20 testers).
-- Review and approve incoming community tester screenshot proofs from your **My Apps** developer dashboard.
+- Review incoming community tester screenshot proofs from your **My Apps** developer dashboard.
+- **Pause & Resume**: Pause tester recruitment anytime with 1 tap (`PAUSED`).
 
 ### 5️⃣ Step 5: Export Verified Testers to Google Play
 - Export your verified list of 14-day testers for submission to Google Play Console with 100% confidence!
 
 ---
 
-## 📱 App Highlights & Visual Features
+## 📱 Core Features & Architectural Highlights
 
 | Feature | Description |
 | :--- | :--- |
-| **🛡️ Double-Bezel Architecture** | Modern hardware-inspired card enclosures with dark & light theme contrast guardrails. |
-| **💎 Ecosystem Seat Engine** | Real-time seat balance calculations with animated count transitions and transaction audit log. |
-| **🔒 Developer Review Lock** | Application CTA automatically locks in *"⏳ Awaiting Developer Approval"* state until proof is verified. |
-| **⚡ Quick Start Mode** | Includes instant Developer Quick Start for testing on Android emulators and offline environments. |
-| **🌙 Adaptive Dark/Light Mode** | HSL-tailored Obsidian Midnight (`#0B0F17`) and Pristine Slate (`#F8FAFC`) visual design system. |
+| **📅 14-Day Installed Date Trackline** | Calculates exact installation date and 14-day completion target date with day-by-day dates (`Jul 15` ➔ `Jul 29`). |
+| **📸 Screenshot Proof Lightbox** | Tap any screenshot thumbnail to open full-screen picture preview. |
+| **💎 Automated Seat Point Engine** | Real-time seat balance calculations (`Earned - Spent = Available`) with transparent transaction history. |
+| **⏸️ Pause & Resume Recruitment** | 1-tap recruitment toggle to pause new tester signups while preserving full app history. |
+| **🎨 Status Badge Alignment** | Clean single status badge (`ACTIVE` / `PAUSED` / `TARGET REACHED 🎉`) positioned on the bottom right under action buttons. |
+| **🔒 Enterprise Security** | Enforced HTTPS-only network security, non-root backup protection (`allowBackup="false"`), and R8 obfuscation. |
 
 ---
 
@@ -84,22 +86,22 @@ flowchart LR
 - **Storage**: ~15 MB free space
 - **Permissions**: Internet, Camera (for screenshot proof capture), Storage
 
-### Quick Installation Guide
+### Installation Steps
 
-1. **Download APK**: Tap below to download `TesterExchange-v1.0.0.apk`:
+1. **Download APK**: Download `TesterExchange-v2.0.0-Release.apk`:
    
-   👉 [**Download TesterExchange-v1.0.0.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
+   👉 [**Download TesterExchange-v2.0.0-Release.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
 
 2. **Allow Installation**:
    - Open the downloaded `.apk` file on your device.
-   - If prompted, enable **"Install from unknown sources"** for your browser/file manager.
+   - Enable **"Install from unknown sources"** if prompted by your browser or file manager.
 
 3. **Launch App**:
-   - Open **Tester Exchange**, tap `⚡ Developer Quick Start (Demo)` or `Continue with Google`, and start testing!
+   - Open **Tester Exchange**, sign in with Google, and start testing community apps to earn seat credits!
 
 ---
 
-## 🛡️ Security & Privacy Assurance
+## 🔒 Security & Privacy Assurance
 
 - **HTTPS Network Security**: Enforced via `network_security_config.xml` (cleartext traffic disabled).
 - **Non-Root Backup Guard**: Configured `allowBackup="false"` to prevent local app data tampering.
