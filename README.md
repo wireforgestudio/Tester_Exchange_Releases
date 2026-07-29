@@ -1,5 +1,7 @@
 <div align="center">
 
+![Tester Exchange Feature Banner](feature_graphic.jpg)
+
 # ⚡ Tester Exchange
 
 ### *Reciprocal 14-Day Closed Testing Platform for Android Developers*
@@ -75,6 +77,7 @@ flowchart LR
 | **💎 Automated Seat Point Engine** | Real-time seat balance calculations (`Earned - Spent = Available`) with transparent transaction history. |
 | **⏸️ Pause & Resume Recruitment** | 1-tap recruitment toggle to pause new tester signups while preserving full app history. |
 | **🎨 Status Badge Alignment** | Clean single status badge (`ACTIVE` / `PAUSED` / `TARGET REACHED 🎉`) positioned on the bottom right under action buttons. |
+| **🔑 Production Keystore Signed** | Digitally signed with RSA 2048-bit key certificate valid for 25+ years. |
 | **🔒 Enterprise Security** | Enforced HTTPS-only network security, non-root backup protection (`allowBackup="false"`), and R8 obfuscation. |
 
 ---
@@ -88,9 +91,9 @@ flowchart LR
 
 ### Installation Steps
 
-1. **Download APK**: Download `TesterExchange-v2.0.0-Release.apk`:
+1. **Download APK**: Download `TesterExchange-v2.0.0.apk`:
    
-   👉 [**Download TesterExchange-v2.0.0-Release.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
+   👉 [**Download TesterExchange-v2.0.0.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
 
 2. **Allow Installation**:
    - Open the downloaded `.apk` file on your device.
