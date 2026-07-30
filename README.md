@@ -8,14 +8,14 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android%208.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%20Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![Version](https://img.shields.io/badge/Latest%20Release-v2.3.1-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
+[![Version](https://img.shields.io/badge/Latest%20Release-v2.3.2-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-FF2D55?style=for-the-badge)](LICENSE)
 
 <br/>
 
 > 🚀 **Pass Google Play Console's mandatory 20-tester / 14-day closed testing requirement effortlessly through developer reciprocity.**
 
-[📥 **Download Production APK (v2.3.1)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.1/TesterExchange-v2.3.1.apk) • [📖 Full Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/tag/v2.3.1) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues)
+[📥 **Download Production APK (v2.3.2)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.2/TesterExchange-v2.3.2.apk) • [📖 Full Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/tag/v2.3.2) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues)
 
 ---
 
@@ -72,7 +72,7 @@ flowchart LR
 
 | Feature | Description |
 | :--- | :--- |
-| **📐 Compact TopAppBar Layout** | Zeroed extra top insets to maximize vertical screen area for app listings and calendar cards. |
+| **📐 Tight Card-Header Alignment** | Removed duplicate Scaffold padding & extra top spacers so cards sit tight & close to headers. |
 | **🔄 Pull-to-Refresh Gesture** | Swipe down on Home, Marketplace, My Apps, and Profile screens to instantly sync data. |
 | **📳 Haptic Tactile Feedback** | Tactile vibration feedback on button clicks, day-chip selection, and finishing apps. |
 | **📤 Native Share Intent** | 1-tap share app testing link to Discord, Telegram, WhatsApp, or Reddit. |
@@ -94,9 +94,9 @@ flowchart LR
 
 ### Installation Steps
 
-1. **Download APK**: Download `TesterExchange-v2.3.1.apk`:
+1. **Download APK**: Download `TesterExchange-v2.3.2.apk`:
    
-   👉 [**Download TesterExchange-v2.3.1.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.1/TesterExchange-v2.3.1.apk)
+   👉 [**Download TesterExchange-v2.3.2.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.2/TesterExchange-v2.3.2.apk)
 
 2. **Allow Installation**:
    - Open the downloaded `.apk` file on your device.
