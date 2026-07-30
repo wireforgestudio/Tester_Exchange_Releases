@@ -8,14 +8,14 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android%208.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin%20Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![Version](https://img.shields.io/badge/Latest%20Release-v2.2.0-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
+[![Version](https://img.shields.io/badge/Latest%20Release-v2.3.0-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-FF2D55?style=for-the-badge)](LICENSE)
 
 <br/>
 
 > 🚀 **Pass Google Play Console's mandatory 20-tester / 14-day closed testing requirement effortlessly through developer reciprocity.**
 
-[📥 **Download Production APK (v2.2.0)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.2.0/TesterExchange-v2.2.0.apk) • [📖 Full Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/tag/v2.2.0) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues)
+[📥 **Download Production APK (v2.3.0)**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.0/TesterExchange-v2.3.0.apk) • [📖 Full Release Notes](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/tag/v2.3.0) • [🐞 Report Issue](https://github.com/wireforgestudio/Tester_Exchange_Releases/issues)
 
 ---
 
@@ -72,11 +72,13 @@ flowchart LR
 
 | Feature | Description |
 | :--- | :--- |
+| **🔄 Pull-to-Refresh Gesture** | Swipe down on Home, Marketplace, My Apps, and Profile screens to instantly sync data. |
+| **📳 Haptic Tactile Feedback** | Tactile vibration feedback on button clicks, day-chip selection, and finishing apps. |
+| **📤 Native Share Intent** | 1-tap share app testing link to Discord, Telegram, WhatsApp, or Reddit. |
 | **📅 14-Day Installed Date Trackline** | Calculates exact installation date and 14-day completion target date with day-by-day dates (`Jul 15` ➔ `Jul 29`). |
 | **📸 Screenshot Proof Lightbox** | Tap any screenshot thumbnail to open full-screen picture preview. |
 | **💎 Automated Seat Point Engine** | Real-time seat balance calculations (`Earned - Spent = Available`) with transparent transaction history. |
 | **🏁 Mark as Finished & Pause Modes** | 1-tap toggle to mark testing as finished (`FINISHED 🎉`) or paused while preserving full app history. |
-| **🎨 Status Badge Alignment** | Clean single status badge (`ACTIVE` / `PAUSED` / `TARGET REACHED` / `FINISHED 🎉`) positioned on the bottom right under action buttons. |
 | **🔑 Production Keystore Signed** | Digitally signed with RSA 2048-bit key certificate valid for 25+ years. |
 | **🔒 Enterprise Security** | Enforced HTTPS-only network security, non-root backup protection (`allowBackup="false"`), and R8 obfuscation. |
 
@@ -91,9 +93,9 @@ flowchart LR
 
 ### Installation Steps
 
-1. **Download APK**: Download `TesterExchange-v2.2.0.apk`:
+1. **Download APK**: Download `TesterExchange-v2.3.0.apk`:
    
-   👉 [**Download TesterExchange-v2.2.0.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.2.0/TesterExchange-v2.2.0.apk)
+   👉 [**Download TesterExchange-v2.3.0.apk**](https://github.com/wireforgestudio/Tester_Exchange_Releases/releases/download/v2.3.0/TesterExchange-v2.3.0.apk)
 
 2. **Allow Installation**:
    - Open the downloaded `.apk` file on your device.
